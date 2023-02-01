@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Title = "Api Departamentos",
-        Description = "Coge la información de la BBDD sobre los departamentos",
+        Description = "Realiza todas las funciones de Insertar, modificar o borrar datos de los departamentos de la BBDD",
         Version = "v1",
         Contact = new OpenApiContact()
         {
